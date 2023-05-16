@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="./favicon32.png" />
+    <!-- AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="index.js" type="module"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <!-- HTML -->
+    <div id="title" class="title">
+      <h1>Global Weather</h1>
+      <input id="place" type="search" placeholder="Enter location" />
+      <button id="button">Get Weather</button>
+      <div id="regex"></div>
+    </div>
+
+    <!-- Container to insert HTML from JS -->
+    <div id="weatherContainer" class="weatherContainer"></div>
+  </body>
+  <footer>&copy; Oscar 2023</footer>
+</html>
